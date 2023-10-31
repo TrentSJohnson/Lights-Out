@@ -4,10 +4,12 @@ Created on Thu Jan  3 14:25:06 2019
 
 @author: trent
 """
+import random
+
 import pygame as pg
+
 import board as b
 import move as m
-import random
 
 board_size = (3,3)
 m.Move.board_size = board_size

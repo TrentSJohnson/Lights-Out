@@ -7,7 +7,6 @@ Created on Fri Jan  4 20:25:46 2019
 
 # Pygame template - skeleton for a new pygame project
 import pygame
-import random
 
 WIDTH = 360
 HEIGHT = 480

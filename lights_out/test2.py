@@ -12,6 +12,7 @@ import pygame
 # import pygame.locals for easier access to key coordinates
 from pygame.locals import *
 
+
 # Define our player object and call super to give it all the properties and methods of pygame.sprite.Sprite
 # The surface we draw on the screen is now a property of 'player'
 class Player(pygame.sprite.Sprite):
@@ -20,6 +21,7 @@ class Player(pygame.sprite.Sprite):
         self.surf = pygame.Surface((75, 25))
         self.surf.fill((255, 255, 255))
         self.rect = self.surf.get_rect()
+
 
 # initialize pygame
 pygame.init()
