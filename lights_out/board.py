@@ -19,7 +19,7 @@ class Board:
         # print(self.board)
 
     def add(self, selection1):
-        selection = m.Move(selection1.locat)
+        selection = m.Move(selection1.location)
         x = selection.corner[0]
         y = selection.corner[1]
         # print("corner =" , selection.corner)

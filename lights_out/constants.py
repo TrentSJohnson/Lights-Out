@@ -1,0 +1,17 @@
+FPS = 1000
+WIDTH = 1200
+HEIGHT = 600
+SPACING = 5
+BOARDER = 20
+WHITE = (10, 100, 250)
+BOARD_SHAPE = (5, 5)
+BACKGROUND = (5, 5, 5)
+
+if WIDTH / BOARD_SHAPE[0] > HEIGHT / BOARD_SHAPE[1]:
+    bound = HEIGHT
+    d = 1
+else:
+    bound = WIDTH
+    d = 0
+SQUARE_SIZE = (bound - SPACING * BOARD_SHAPE[d] - 2 * BOARDER) / BOARD_SHAPE[d]
+
